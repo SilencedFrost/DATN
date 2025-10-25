@@ -6,8 +6,8 @@ Tech stack:
 - Java Spring Boot backend, written in macroservices architechture
 - PostgreSQL database
 
-Vue3 JS framework
-Bootstrap5 FE framework
+- Vue3 JS framework
+- Bootstrap5 FE framework
 
 Plans to deploy:
 - Containerization
