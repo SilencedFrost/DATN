@@ -1,17 +1,17 @@
 # DATN (Dự án tốt nghiệp)
 
-Is our team's final project in FPT Polytechnic, marking our growth, and the end of our education in this school
+## Is our team's final project in FPT Polytechnic, marking our growth, and the end of our education in this school
 
 Tech stack:
-Java Spring Boot backend, written in macroservices architechture
-PostgreSQL database
+- Java Spring Boot backend, written in macroservices architechture
+- PostgreSQL database
 
 Vue3 JS framework
 Bootstrap5 FE framework
 
 Plans to deploy:
-Containerization
-CloudRun, CloudSQL
+- Containerization
+- CloudRun, CloudSQL
 
 What this project does:
 - Connect concert organizers to their customers
