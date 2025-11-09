@@ -40,5 +40,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-/.idea/gradle.xml
+
+### Custom ###
 services/**/application.properties
+/.idea/
