@@ -43,4 +43,4 @@ bin/
 
 ### Custom ###
 services/**/application.properties
-/.idea/
+**/.idea/
