@@ -1,32 +1,37 @@
 {
-  "name": "asm2-frontend",
-  "version": "0.0.0",
-  "private": true,
+  "name": "ticket4u-frontend",
   "type": "module",
-  "engines": {
-    "node": "^20.19.0 || >=22.12.0"
-  },
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "format": "prettier --write src/"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "vue-tsc --noEmit",
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
   },
   "dependencies": {
     "@fontsource/open-sans": "^5.2.7",
-    "@vueuse/core": "^13.9.0",
-    "axios": "^1.11.0",
+    "@nuxt/eslint": "^1.10.0",
+    "@vueuse/core": "^14.0.0",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
-    "pinia": "^3.0.3",
-    "sass": "^1.93.2",
-    "vue": "^3.5.18",
-    "vue-router": "^4.5.1"
+    "eslint": "^9.39.1",
+    "nuxt": "^4.2.1",
+    "pinia": "^3.0.4",
+    "sass": "^1.93.3",
+    "sass-loader": "^16.0.6",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.1",
+    "@types/bootstrap": "^5.2.10",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "prettier": "3.6.2",
-    "vite": "^7.0.6",
-    "vite-plugin-vue-devtools": "^8.0.0"
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.1.3"
   }
 }

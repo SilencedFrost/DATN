@@ -44,3 +44,6 @@ bin/
 ### Custom ###
 services/**/application.properties
 **/.idea/
+
+### AI ###
+ **/AGENTS.md

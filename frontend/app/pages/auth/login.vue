@@ -1,0 +1,3 @@
+<template>
+  <login-form />
+</template>
