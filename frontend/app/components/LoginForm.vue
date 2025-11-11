@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { useTheme } from '~/composables/useTheme';
-
-const { currentTheme } = useTheme();
 
 const isViewingPassword = ref<boolean>(false);
 
