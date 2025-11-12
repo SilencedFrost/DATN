@@ -1,8 +1,10 @@
 @import 'bootstrap/scss/functions';
 
+// Rewire primary and danger color
 $primary: #07b3df;
 $danger: #b82d2d;
 
+// Use open sans
 $font-family-base: 'Open Sans', sans-serif;
 
 @import 'bootstrap/scss/variables';
@@ -11,6 +13,7 @@ $font-family-base: 'Open Sans', sans-serif;
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
+// Colors for light theme
 :root {
   --bg-reactive-primary: #fcfcfc;
   --bg-reactive-secondary: #f5f5f5;
@@ -21,6 +24,7 @@ $font-family-base: 'Open Sans', sans-serif;
   --text-reactive-secondary: #6e6e6e;
 }
 
+// Colors for dark theme
 [data-bs-theme='dark'] {
   --bg-reactive-primary: #111111;
   --bg-reactive-secondary: #181818;
@@ -31,14 +35,22 @@ $font-family-base: 'Open Sans', sans-serif;
   --text-reactive-secondary: #979797;
 }
 
+// Base background color, changes based on theme
 .bg-reactive-primary {
   background-color: var(--bg-reactive-primary);
 }
 
+// Secondary background color, for cards, tables, etc..
 .bg-reactive-secondary {
   background-color: var(--bg-reactive-secondary);
 }
 
+// Reactive to look like light gray on both modes
+.bg-reactive-gray {
+  background-color: var(--bg-reactive-gray);
+}
+
+// Reactive to look like light gray on both modes
 .btn-reactive-gray {
   --bs-btn-bg: var(--bg-reactive-gray);
   --bs-btn-hover-bg: var(--bg-reactive-gray-hover);
@@ -46,10 +58,12 @@ $font-family-base: 'Open Sans', sans-serif;
   --bs-btn-color: var(--text-reactive-primary);
 }
 
+// Main text color, white in dark mode, black in light mode
 .text-reactive-primary {
   color: var(--text-reactive-primary);
 }
 
+// Reactive secondary text, to look gray in both modes
 .text-reactive-secondary {
   color: var(--text-reactive-secondary);
 }
