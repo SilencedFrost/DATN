@@ -46,7 +46,7 @@ const viewPassword = () => {
       </div>
       <div class="d-flex flex-column">
         <button class="btn btn-primary text-center mb-2">Sign in</button>
-        <button class="btn btn-gray">
+        <button class="btn btn-reactive-gray">
           <i class="bi bi-google me-2" />
           <span>Sign in with google</span>
         </button>
